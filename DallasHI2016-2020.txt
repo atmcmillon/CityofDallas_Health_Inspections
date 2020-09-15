@@ -1,0 +1,25 @@
+Abstract: This project is a look into the health inspection reports conducted by the city of Dallas
+from 2016 to 2020. It contains restaurant scores for each visit, the visit type, date, restaurant
+name, and location; as well as comments from the inspector for the cleanliness and scores. The actual
+.csv file is too heavy for Github to support, so it is available for free through the city of Dallas
+311 website. I personally renamed the file to 'DallasHI2016toNow.csv'.
+
+I intend to use this data project as practice for data analysis, and ask questions such as:
+
+1. What are the highest and lowest scores reported, as well as median and average scores by:
+a. The whole table
+b. Each year
+c. Each restaurant location
+
+2. What are the unique restaurants inspected, given fast food chains can produce duplicates?
+a. How many restaurants were inspected for each year?
+
+3. Are there possible ways to predict trends in restaurant scores, and see if the worst offenders
+ever get passing scores, or continue to fail?
+
+Methodology: Python is a widely used and understood language by programmers and lay people alike,
+so this will be my main file for writing queries, searching data, and cleaning data. Modules such
+as Pandas, SweetViz, and NumPy are excellent libraries for data structuring and arranging.
+Datetime is a good library for cleaning up columns with time-sensitive data.
+
+Research:
